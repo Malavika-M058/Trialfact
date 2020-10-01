@@ -1,0 +1,33 @@
+#include<stdio.h>
+int fact(int a);
+int add(int b);
+int main()
+ {
+   int num,n,Fact,Sum:
+   printf("Enter the num to find factorial");
+   scanf("%d",&num);
+   printf("Enter the num to find sum");
+   scanf("%d",&n);
+   Fact=fact(num);
+   Sum=add(n);
+   printf("Factorial of %d",num,Fact);
+   printf("Sum of %d",n,Sum);
+  }
+  int fact(int a)
+   {
+     int i,f=1;
+     for(i=1;i<=a;i++)
+       {
+         f=f*i;
+        }
+       return f;
+     }
+     int add(int b)
+      {
+        int s=0,i;
+        for(i=1;i<b;i++)
+         {
+           s=s+i;
+         }
+        return s;
+       }

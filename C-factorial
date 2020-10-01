@@ -3,7 +3,7 @@ int fact(int a);
 int add(int b);
 int main()
  {
-   int num,n,Fact,Sum:
+   int num,n,Fact,Sum;
    printf("Enter the num to find factorial");
    scanf("%d",&num);
    printf("Enter the num to find sum");
